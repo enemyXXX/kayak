@@ -1,0 +1,20 @@
+.swiper {
+    width: 100% !important;
+    padding: 4vmax 0 !important;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff5500 !important;
+}

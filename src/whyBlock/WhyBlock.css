@@ -1,0 +1,10 @@
+
+.Advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.WhyBlockWrapper {
+    background: #fffbf7;
+}

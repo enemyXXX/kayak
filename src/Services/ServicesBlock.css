@@ -1,0 +1,25 @@
+.ServicesDescription {
+    font-size: clamp(1.1rem, 1.0308rem + 0.3077vw, 1.4rem);
+    line-height: 1.55;
+    color: #221508;
+    font-weight: 300;
+    font-family: TildaSansLight, sans-serif;
+    max-width: 900px;
+    padding: 0 16px;
+    text-align: justify;
+    text-indent: 3vmax;
+}
+
+.ChipsContainer {
+    margin-top: 3vmax;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+
+.SwiperContainer {
+    max-width: 900px;
+}

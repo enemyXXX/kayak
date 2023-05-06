@@ -1,0 +1,10 @@
+
+.ChipItem {
+    background: #ff5500;
+    color: #fffbf7;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-weight: 300;
+    font-size: clamp(0.8rem, 0.7538rem + 0.2051vw, 1rem);
+    font-family: TildaSansMedium, sans-serif;
+}

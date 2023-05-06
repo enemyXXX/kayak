@@ -1,0 +1,34 @@
+.ContactsDescription {
+    font-size: clamp(1.1rem, 1.0308rem + 0.3077vw, 1.4rem);
+    line-height: 1.55;
+    color: #221508;
+    font-weight: 300;
+    font-family: TildaSansLight, sans-serif;
+    max-width: 900px;
+    padding: 0 16px;
+    text-align: justify;
+    text-indent: 3vmax;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 3vmax;
+    gap: 16px;
+}
+
+.ContactItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: clamp(1.1rem, 1.0308rem + 0.3077vw, 1.4rem);
+    color: #221508;
+    font-weight: 300;
+    font-family: TildaSansRegular, sans-serif;
+}
+
+.ContactLink {
+    color: #ff5500;
+}

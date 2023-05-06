@@ -1,0 +1,47 @@
+.Header {
+  position: absolute;
+  background: #221508;
+  padding: clamp(0.8rem, 0.7538rem + 0.2051vw, 1rem) clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+}
+
+.LogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
+}
+
+.Brand {
+  font-weight: 500;
+  font-size: clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);;
+  color: #fffbf7;
+  font-family: TildaSansBold, sans-serif;
+}
+
+.Logo > a > svg {
+  width: clamp(1.9rem, 1.7615rem + 0.6154vw, 2.5rem);
+  height: clamp(1.9rem, 1.7615rem + 0.6154vw, 2.5rem);
+}
+
+.Navigation {
+  font-weight: 400;
+  font-size: clamp(1rem, 0.9308rem + 0.3077vw, 1.3rem);
+  color: #fffbf7;
+  font-family: TildaSansMedium, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
+  cursor: pointer;
+  border: 1px solid #ff5500;
+  border-radius: 4px;
+  padding: 6px 8px;
+  text-decoration: none;
+}

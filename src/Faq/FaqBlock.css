@@ -1,0 +1,39 @@
+
+.FaqWrapper {
+    background: #fffbf7;
+}
+
+.Questions {
+    margin-top: 20px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 16px;
+}
+
+.content-placeholder {
+    padding: 4px 12px 8px;
+    transform-origin: top center;
+    font-family: TildaSansLight, sans-serif;
+    font-size: clamp(1rem, 0.9308rem + 0.3077vw, 1.3rem);
+    color: #221508;
+}
+
+.FaqQuestion {
+    background: #ff5500;
+    font-size: clamp(0.9rem, 0.8077rem + 0.4103vw, 1.3rem);
+    color: #fffbf7;
+    border: 1px solid #ff5500;
+    border-radius: 12px;
+    font-weight: 600;
+    font-family: TildaSansLight, sans-serif;
+    padding: 8px 12px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

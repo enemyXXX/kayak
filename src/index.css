@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'TildaSansBold';
+  src: url('./fonts/TildaSans-Bold.eot');
+  src:
+          url('./fonts/TildaSans-Bold.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/TildaSans-Bold.woff2') format('woff2'),
+          url('./fonts/TildaSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'TildaSansMedium';
+    src: url('./fonts/TildaSans-Medium.eot');
+    src:
+            url('./fonts/TildaSans-Medium.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/TildaSans-Medium.woff2') format('woff2'),
+            url('./fonts/TildaSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TildaSansRegular';
+    src: url('./fonts/TildaSans-Regular.eot');
+    src:
+            url('./fonts/TildaSans-Regular.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/TildaSans-Regular.woff2') format('woff2'),
+            url('./fonts/TildaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TildaSansLight';
+    src: url('./fonts/TildaSans-Light.eot');
+    src:
+            url('./fonts/TildaSans-Light.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/TildaSans-Light.woff2') format('woff2'),
+            url('./fonts/TildaSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TildaSansRegular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+   background-color: #0042690F !important;
+   border-radius: 4px;
+ }
+
+body::-webkit-scrollbar-thumb {
+   background-color: #0042693D !important;
+   border-radius: 4px;
+ }
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Bandeins Sans', sans-serif;
+}

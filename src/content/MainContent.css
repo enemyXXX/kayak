@@ -1,0 +1,86 @@
+
+
+.MainPhoto {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.MainContentWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.MainContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: TildaSansMedium, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.Heading {
+    font-weight: 500;
+    font-size: clamp(1.7rem, 1.4rem + 1.3333vw, 3rem);
+    color: #fffbf7;
+    font-family: TildaSansBold, sans-serif;
+    text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.43) !important;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.Description {
+    font-weight: 500;
+    font-size: clamp(1.2rem, 0.9rem + 1.3333vw, 2.5rem);
+    color: rgba(255, 253, 251, 0.94);
+    text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.6) !important;
+    display: flex;
+    font-family: TildaSansMedium, sans-serif;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.BookButton {
+    margin-top: 20px;
+    font-family: TildaSansMedium, sans-serif;
+    background: #ff5500;
+    border: 1px solid #ff5500;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #fffbf7;
+    cursor: pointer;
+    display: inline-block;
+    font-size: clamp(1.1rem, 0.9615rem + 0.6154vw, 1.7rem);
+    font-weight: 400;
+    line-height: 150%;
+    outline: 0;
+    padding: 8px 24px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.BookButton:hover,
+.BookButton:active {
+    background: #ff5500;
+    color: #fffbf7;
+}
+
+.BookButton:active {
+    opacity: .5;
+}

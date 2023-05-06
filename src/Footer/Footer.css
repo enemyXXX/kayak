@@ -1,0 +1,30 @@
+.Footer {
+  background: #221508;
+  padding: clamp(1.5rem, 1.2692rem + 1.0256vw, 2.5rem) 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.Social {
+
+}
+
+.Social > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.Copyright {
+  color: #fffbf7;
+  font-family: TildaSansRegular, sans-serif;
+  text-shadow: 0.08em 0.08em 0.08em rgba(255, 255, 255, 0.31) !important;
+}

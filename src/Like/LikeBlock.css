@@ -1,0 +1,18 @@
+.DescriptionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LikeDescription {
+    font-size: clamp(1.1rem, 1.0308rem + 0.3077vw, 1.4rem);
+    line-height: 1.55;
+    color: #221508;
+    font-weight: 300;
+    font-family: TildaSansLight, sans-serif;
+    max-width: 900px;
+    padding: 0 16px;
+    text-indent: 3vmax;
+    text-align: justify;
+}
